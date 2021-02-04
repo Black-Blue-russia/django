@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TPU</title>
+</head>
+<body>
+    <h1>hellluuuu</h1>
+
+ <ul>
+        {% for i in all %}
+            <li>{{i.name}}</li>
+        {% endfor %}
+ </ul>
+    <a class="btn btn-primary  btn-sm btn-block" href="{% url 'building1' %}">Building1</a>
+    <a class="btn btn-primary  btn-sm btn-block" href="{% url 'building2' %}">Building2</a>
+    <a class="btn btn-primary  btn-sm btn-block" href="{% url 'building3' %}">Building3</a>
+</body>
+</html>
